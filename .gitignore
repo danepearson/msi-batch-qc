@@ -1,0 +1,29 @@
+# MSI data files - too large for git
+*.ibd
+*.imzML
+*.imzml
+
+# Downloaded dataset directories
+data/b07f13aa/
+data/b84bb453/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python, if you use it for XML parsing
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Output you can regenerate
+output/
+figures/
+cache/
+
+# macOS
+.DS_Store
